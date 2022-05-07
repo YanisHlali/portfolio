@@ -19,6 +19,15 @@ const useStyles = makeStyles(theme => ({
 
 export default function Projects({ data }) {
 
+    let data = {
+        "html_url": "youtube.com",
+        "name": "Nom",
+        "stargazers_count": 0,
+        "forks": "Non",
+        "description": "C'est une description",
+        "languages": "fr"
+    }
+
     const classes = useStyles()
 
     const animRef = useRef(null)
