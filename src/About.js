@@ -59,9 +59,9 @@ export default function About() {
                 </Typography>
                 <Typography variant="h6" gutterBottom component="p">
                     {about.description}
-                    <br />
+                    <br /><br />
                     {about.description2}
-                    <br />
+                    <br /><br />
                     {about.description3}
                 </Typography>                
             </Grid>
