@@ -141,8 +141,7 @@
         ]
     },
     "about": {
-        "description": "I am a full-stack cross-platform app developer, pursuing my B.E in Computer Engineering from Pune Institute of Computer Technology. I strive to make meaningful applications with the best UI practices.",
-        "picture": "/profile.jpg",
+        "description": "Je m'appelle Yanis, je suis actuellement étudiant en BTS SIO SLAM au lycée Aristide Berges.\n Intéressé par l'informatique depuis quelques années, j'ai choisi de me spécialiser dans le développement d'application à travers l'option SLAM du BTS.\nMon projet professionnel est de devenir développeur web full-stack, et de développer des applications web et mobiles sur les plateformes de développement web et mobile.",
         "social": [
             {
                 "alt": "kaustubh._.o",
