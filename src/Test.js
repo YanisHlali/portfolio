@@ -3,6 +3,7 @@ import data from '../data.json'
 import simpleIcons from 'simple-icons'
 import clsx from "clsx";
 import Image from 'next/image'
+import { useRef} from "react";
 import { iconify } from "./util";
 import Cancel from "@material-ui/icons/Cancel";
 const { about } = data
