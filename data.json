@@ -76,7 +76,7 @@
         ]
     },
     "projects": {
-        "baseURI": "https://api.github.com/repos/kausko/",
+        "baseURI": "https://api.github.com/repos/YanisHlali/",
         "repositories": [
             "Genrealize",
             "Portfolio",
