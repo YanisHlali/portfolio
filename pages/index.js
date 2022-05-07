@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import { AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger, useTheme } from '@material-ui/core';
 import Landing from '../src/Landing';
-import Skills from '../src/Skills';
+// import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
 import About from '../src/About';
@@ -75,7 +75,7 @@ export default function Index({ projects, setTheme }) {
       <Toolbar className={classes.toolbar} />
       <Container>
         <Landing />
-        <Skills />
+        {/* <Skills /> */}
         <Projects data={projects}/>
         <Experience/>
         <About/>
