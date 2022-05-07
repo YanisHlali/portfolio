@@ -11,73 +11,20 @@
         ],
         "professionalDetails": [
             {
-                "alt": "kaustubh-odak",
+                "alt": "Yanis HLALI",
                 "icon": "linkedin",
-                "link": "https://www.linkedin.com/in/kaustubh-odak/"
+                "link": "https://www.linkedin.com/in/yanis-hlali-4ba712201"
             },
             {
-                "alt": "kausko",
-                "icon": "stackoverflow",
-                "link": "https://stackoverflow.com/users/15832433/kausko"
-            },
-            {
-                "alt": "kausko",
+                "alt": "Yanis HLALI",
                 "icon": "github",
-                "link": "https://github.com/kausko"
+                "link": "https://github.com/YanisHlali"
             },
             {
                 "alt": "Email",
                 "icon": "gmail",
-                "link": "mailto:iam@kaustubhodak.me,kaustubhodak1@gmail.com"
+                "link": "mailto:yanis.hlali@gmail.com"
             }
-        ]
-    },
-    "skills": {
-        "Languages known": [
-            "JavaScript",
-            "Java",
-            "C++",
-            "Python",
-            "HTML5",
-            "CSS3",
-            "TypeScript",
-            "Kotlin",
-            "Dart"
-        ],
-        "Frontend": [
-            "React",
-            "Redux",
-            "Next.js",
-            "Gatsby",
-            "Netlify",
-            "Vercel",
-            "Material-UI",
-            "antdesign",
-            "Bootstrap"
-        ],
-        "Backend, Database and Cloud": [
-            "Node.js",
-            "Express",
-            "FastAPI",
-            "MongoDB",
-            "MySQL",
-            "PostgreSQL",
-            {
-                "alt": "Azure",
-                "icon": "microsoftazure"
-            },
-            "Heroku",
-            "Firebase"
-        ],
-        "Mobile": [
-            {
-                "alt": "React_Native",
-                "icon": "react",
-                "backgroundColor": "#424242"
-            },
-            "Expo",
-            "Android",
-            "Flutter"
         ]
     },
     "projects": {
