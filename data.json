@@ -142,6 +142,7 @@
     },
     "about": {
         "description": "Je m'appelle Yanis, je suis actuellement étudiant en BTS SIO SLAM au lycée Aristide Berges.\n Intéressé par l'informatique depuis quelques années, j'ai choisi de me spécialiser dans le développement d'application à travers l'option SLAM du BTS.\nMon projet professionnel est de devenir développeur web full-stack, et de développer des applications web et mobiles sur les plateformes de développement web et mobile.",
+        "picture": "/profile.jpg",
         "social": [
             {
                 "alt": "kaustubh._.o",
