@@ -3,6 +3,7 @@ import { RepoForkedIcon, RepoIcon, StarIcon } from '@primer/octicons-react';
 import Image from 'next/image'
 import { useRef } from "react";
 import useAnimate from "./useAnimate";
+import Repos from "../githubRepos.json"
 
 const useStyles = makeStyles(theme => ({
     cont: {
@@ -19,8 +20,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function Projects({ data }) {
 
-    console.log("CACA")
-    console.log(data)
+    data = Repos
 
     const classes = useStyles()
 
