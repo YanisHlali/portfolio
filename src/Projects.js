@@ -48,7 +48,7 @@ export default function Projects({ data }) {
                     </Fade>
                 </Hidden>
             </Grid>
-            <Grid container item xs={12} lg={6} direction="row" spacing={1}>
+            <Grid container item xs={12} lg={3} direction="row" spacing={1}>
                 {
                     !!data && data.map((v, i) =>
                         <Grid item sm={6} xs={12} key={i}>
@@ -56,7 +56,7 @@ export default function Projects({ data }) {
                                 <Card key={i} className={classes.card}>
                                     <CardActionArea
                                         className={classes.cardActionArea}
-                                        href={Repos[0].html_url}
+                                        href={Repos[i].html_url}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
