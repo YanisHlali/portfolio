@@ -59,6 +59,10 @@ export default function About() {
                 </Typography>
                 <Typography variant="h6" gutterBottom component="p">
                     {about.description}
+                    <br />
+                    {about.description2}
+                    <br />
+                    {about.description3}
                 </Typography>                
             </Grid>
             <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
