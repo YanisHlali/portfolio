@@ -3,11 +3,14 @@ import data from '../data.json'
 import simpleIcons from 'simple-icons'
 import clsx from "clsx";
 import Image from 'next/image'
-import { useRef} from "react";
 import { iconify } from "./util";
 import Cancel from "@material-ui/icons/Cancel";
 const { about } = data
-
+import Cancel from "@material-ui/icons/Cancel";
+import clsx from "clsx";
+import { useRef} from "react";
+import useAnimate from "./useAnimate";
+const { skills } = data
 const dpx = about.social.length*10 - 2
 
 const socialDetails = about.social.map(({ alt, icon, link }) => {
