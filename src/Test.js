@@ -56,7 +56,7 @@ export default function About() {
     const mdDown = useMediaQuery(theme.breakpoints.down('md'))
     const align = mdDown ? "center" : "flex-end"
     const textAlign = mdDown ? "center" : "right"
-    
+
     const animRef = useRef(null)
     const animate = useAnimate(animRef)
 
@@ -83,7 +83,7 @@ export default function About() {
                         <div>
                             <Image
                                 alt="Skills"
-                                src="/skill.svg"
+                                src="/groupe.svg"
                                 width="1139"
                                 height="655"
                             />
