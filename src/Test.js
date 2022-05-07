@@ -51,6 +51,12 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export default function About() {
+    const classes = useStyles()
+    const theme = useTheme()
+    const mdDown = useMediaQuery(theme.breakpoints.down('md'))
+    const align = mdDown ? "center" : "flex-end"
+    const textAlign = mdDown ? "center" : "right"
+    
     const animRef = useRef(null)
     const animate = useAnimate(animRef)
 
