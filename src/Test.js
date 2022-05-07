@@ -51,8 +51,8 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export default function About() {
-    const classes = useStyles()
     const animRef = useRef(null)
+    const animate = useAnimate(animRef)
 
     return(
         <Grid direction="row" container justify="center" alignItems="center" className={classes.cont}>
