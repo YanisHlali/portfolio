@@ -19,6 +19,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function Projects({ data }) {
 
+    console.log("CACA")
     console.log(data)
 
     const classes = useStyles()
