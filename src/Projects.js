@@ -20,8 +20,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function Projects({ data }) {
 
-    data = Repos
-    console.log(data)
+    console.log(Repos)
 
     const classes = useStyles()
 
