@@ -1,4 +1,4 @@
-import { Grid, makeStyles, Typography, Tooltip, Avatar } from "@material-ui/core";
+import { Avatar, Fade, Grid, Hidden, makeStyles, Tooltip, Typography, useMediaQuery, useTheme, Zoom } from "@material-ui/core";
 import data from '../data.json'
 import simpleIcons from 'simple-icons'
 import clsx from "clsx";
