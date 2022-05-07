@@ -76,10 +76,10 @@
         ]
     },
     "projects": {
-        "baseURI": "https://api.github.com/repos/kausko/",
+        "baseURI": "https://api.github.com/repos/YanisHlali/",
         "repositories": [
-            "TEST1",
-            "TEST2",
+            "pharmacie",
+            "nuit-info",
             "cosmicom",
             "Discord-Google-Drive-Bot",
             "GitHits",
