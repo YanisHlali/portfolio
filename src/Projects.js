@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function Projects({ data }) {
 
-    let data = [
+    let data =
         {
           "id": 1296269,
           "node_id": "MDEwOlJlcG9zaXRvcnkxMjk2MjY5",
@@ -124,7 +124,6 @@ export default function Projects({ data }) {
           },
           "template_repository": null
         }
-      ]
 
     const classes = useStyles()
 
