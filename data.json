@@ -27,6 +27,54 @@
             }
         ]
     },
+    "skills": {
+        "Languages known": [
+            "JavaScript",
+            "Java",
+            "C++",
+            "Python",
+            "HTML5",
+            "CSS3",
+            "TypeScript",
+            "Kotlin",
+            "Dart"
+        ],
+        "Frontend": [
+            "React",
+            "Redux",
+            "Next.js",
+            "Gatsby",
+            "Netlify",
+            "Vercel",
+            "Material-UI",
+            "antdesign",
+            "Bootstrap"
+        ],
+        "Backend, Database and Cloud": [
+            "Node.js",
+            "Express",
+            "FastAPI",
+            "MongoDB",
+            "MySQL",
+            "PostgreSQL",
+            {
+                "alt": "Azure",
+                "icon": "microsoftazure"
+            },
+            "Heroku",
+            "Firebase"
+        ],
+        "Mobile": [
+            {
+                "alt": "React_Native",
+                "icon": "react",
+                "backgroundColor": "#424242"
+            },
+            "Expo",
+            "Android",
+            "Flutter"
+        ]
+    },
     "projects": {
         "baseURI": "https://api.github.com/repos/kausko/",
         "repositories": [
