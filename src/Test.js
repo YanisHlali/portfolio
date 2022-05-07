@@ -6,8 +6,6 @@ import Image from 'next/image'
 import { iconify } from "./util";
 import Cancel from "@material-ui/icons/Cancel";
 const { about } = data
-import Cancel from "@material-ui/icons/Cancel";
-import clsx from "clsx";
 import { useRef} from "react";
 import useAnimate from "./useAnimate";
 const { skills } = data
