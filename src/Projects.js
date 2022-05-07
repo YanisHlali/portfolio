@@ -21,6 +21,7 @@ const useStyles = makeStyles(theme => ({
 export default function Projects({ data }) {
 
     data = Repos
+    console.log(data)
 
     const classes = useStyles()
 
