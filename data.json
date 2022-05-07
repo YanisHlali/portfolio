@@ -76,7 +76,7 @@
         ]
     },
     "projects": {
-        "baseURI": "https://api.github.com/repos/YanisHlali/",
+        "baseURI": "https://api.github.com/users/YanisHlali/repos",
         "repositories": [
             "pharmacie",
             "nuit-info"
