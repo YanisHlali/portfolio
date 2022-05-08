@@ -75,6 +75,7 @@ export default function Index({ projects, setTheme }) {
       </AppBar>
       <Toolbar className={classes.toolbar} />
       <Container>
+        <Landing />
       </Container>
     </div>
   );
