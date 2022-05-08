@@ -71,8 +71,8 @@ export default function About() {
             <Image
                 alt="Skills"
                 src="/mfr_de_vif.png"
-                width="1139"
-                height="655"
+                width="900"
+                height="500"
             />              
             </Grid>
         </Grid>
