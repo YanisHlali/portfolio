@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react';
 import { AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger, useTheme } from '@material-ui/core';
 import Landing from '../src/pharmacie/Landing';
+import About from '../src/pharmacie/About';
 import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
