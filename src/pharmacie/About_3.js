@@ -60,8 +60,8 @@ export default function About() {
             <Image
             alt="Skills"
             src="/pharmacie_diagrammeDeClasse.png"
-            width="1139"
-            height="655"
+            width="1400"
+            height="700"
         />              
         </Grid>
     </Grid>
