@@ -145,7 +145,6 @@
 
             "image": "/mfr_de_vif.png",
             "mission": "Création d’une sorte d’interface/logiciel permettant à chacun de mettre à jour régulièrement les informations concernant son parcours professionnel, la fiche de chacun doit être confidentielle. Une interface administrateur doit être créée afin de permettre à l’administrateur d’extraire (rapidement) des listes d’information concernant les salariés."
-
         },
         "description": "Je m'appelle Yanis, je suis actuellement étudiant en BTS SIO SLAM au lycée Aristide Berges.",
         "description2": "Intéressé par l'informatique depuis quelques années, j'ai choisi de me spécialiser dans le développement d'application à travers l'option SLAM du BTS",
