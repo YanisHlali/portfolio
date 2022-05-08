@@ -28,6 +28,16 @@
         }
     },
     "skills": {
+        "stage1": {
+            "Frontend": [
+                "HTLM",
+                "CSS"
+            ],
+            "Backend, Database": [
+                "PHP",
+                "SQL"
+            ]
+        },
         "Languages known": [
             "JavaScript",
             "Java",

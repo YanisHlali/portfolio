@@ -7,6 +7,7 @@ import Experience from '../src/Experience';
 import About from '../src/mfr_de_vif/About';
 import About2 from '../src/mfr_de_vif/About_2';
 import About3 from '../src/mfr_de_vif/About_3';
+import About4 from '../src/mfr_de_vif/About_4';
 import Test from "../src/Test";
 import data from '../experience.json';
 import { darkTheme, lightTheme } from '../src/theme';
@@ -81,6 +82,7 @@ export default function Index({ projects, setTheme }) {
         <About />
         <About2 />
         <About3 />
+        <About4 />
       </Container>
     </div>
   );
