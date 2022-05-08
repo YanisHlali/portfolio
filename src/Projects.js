@@ -79,6 +79,9 @@ export default function Projects({ data }) {
                                             }
                                         />
                                         <CardContent>
+                                            <Typography variant="body2" color="textSecondary" component="p">
+                                                {v.value.description}
+                                            </Typography>
                                         </CardContent>
                                         <CardActions>
                                             <Grid container direction="row" spacing={1}>
