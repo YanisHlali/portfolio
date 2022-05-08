@@ -64,23 +64,6 @@ export default function About() {
                 height="655"
             />    
             </Grid>
-            <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
-                <Grid container item xs={12} spacing={2} justify="center">
-                {
-                    socialDetails.map(({ alt, icon, link }, i) =>
-                        <Grid item key={i}>
-                            <a href={link} target="_blank" rel="noopener noreferrer">
-                                <Tooltip title={alt} placement="top">
-                                    <Avatar variant="rounded" className={clsx([classes.avatar, classes[alt]])}>
-                                        {icon}
-                                    </Avatar>
-                                </Tooltip>
-                            </a> 
-                        </Grid>
-                    )
-                }
-                </Grid>                
-            </Grid>
         </Grid>
     )
 }

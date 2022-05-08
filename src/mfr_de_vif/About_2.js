@@ -67,22 +67,7 @@ export default function About() {
                 src="/missions.svg"
                 width="1139"
                 height="655"
-            />
-                <Grid container item xs={12} spacing={2} justify="center">
-                {
-                    socialDetails.map(({ alt, icon, link }, i) =>
-                        <Grid item key={i}>
-                            <a href={link} target="_blank" rel="noopener noreferrer">
-                                <Tooltip title={alt} placement="top">
-                                    <Avatar variant="rounded" className={clsx([classes.avatar, classes[alt]])}>
-                                        {icon}
-                                    </Avatar>
-                                </Tooltip>
-                            </a> 
-                        </Grid>
-                    )
-                }
-                </Grid>                
+            />             
             </Grid>
         </Grid>
     )
