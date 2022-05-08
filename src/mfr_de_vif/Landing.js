@@ -3,7 +3,7 @@ import ReactTyped from "react-typed";
 import clsx from "clsx";
 import Image from 'next/image'
 import simpleIcons from 'simple-icons'
-import data from '../../stageun.json'
+import data from '../../experience.json'
 import { iconify } from "../util";
 import Cancel from "@material-ui/icons/Cancel";
 const { landing } = data
