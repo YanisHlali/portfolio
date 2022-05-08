@@ -64,7 +64,7 @@ export default function About() {
             <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
             <Image
                 alt="Skills"
-                src="/missions.svg"
+                src="/pharmacie_mission.svg"
                 width="1139"
                 height="655"
             />             
