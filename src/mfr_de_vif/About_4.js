@@ -5,8 +5,8 @@ import Image from 'next/image'
 import { useRef} from "react";
 import simpleIcons from 'simple-icons'
 import data from '../../experience.json'
-import useAnimate from "./useAnimate";
-import { iconify } from "./util";
+import useAnimate from "../useAnimate";
+import { iconify } from "../util";
 const { skills } = data
 
 const wrapper = (sk = []) => sk.map(v => {
