@@ -1,4 +1,4 @@
-import { Grid, makeStyles, Typography, Tooltip, Avatar } from "@material-ui/core";
+import { Fade, Grid, makeStyles, Typography, Tooltip, Avatar } from "@material-ui/core";
 import data from '../../experience.json'
 import simpleIcons from 'simple-icons'
 import clsx from "clsx";
