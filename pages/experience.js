@@ -75,12 +75,6 @@ export default function Index({ projects, setTheme }) {
       </AppBar>
       <Toolbar className={classes.toolbar} />
       <Container>
-        <Landing />
-        <About/>
-        <Skills />
-        <Projects data={projects}/>
-        <Experience/>
-        <Test />
       </Container>
     </div>
   );
