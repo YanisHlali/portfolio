@@ -68,15 +68,16 @@ export default function About() {
                 </Typography>                
             </Grid>
             <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
-                <Grid item xs={12}>
-                    <Avatar variant="rounded" className={classes.dp}>
-                        <Image
-                            alt="Display Picture"
-                            src={about.stage1.image}
-                            layout="fill"
-                        />
-                    </Avatar>
-                </Grid>
+            <Fade in={animate} style={{ transitionDelay: '100ms' }}>
+                        <div>
+                            <Image
+                                alt="Skills"
+                                src="/skill.svg"
+                                width="1139"
+                                height="655"
+                            />
+                        </div>
+                    </Fade>
                 <Grid container item xs={12} spacing={2} justify="center">
                 {
                     socialDetails.map(({ alt, icon, link }, i) =>
