@@ -56,10 +56,7 @@ export default function About() {
         <Grid item xs={12} lg={6}>
             <Typography variant="h2" gutterBottom component="p">
             Schéma de base de données
-            </Typography>
-            <Typography variant="h6" gutterBottom component="p">
-                {about.stage1.mission}
-            </Typography>                
+            </Typography>               
         </Grid>
         <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
         <Image
