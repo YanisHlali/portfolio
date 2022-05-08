@@ -7,7 +7,7 @@ import Experience from '../src/Experience';
 import About from '../src/About';
 import Test from "../src/Test";
 import data from '../experience.json';
-import { darkTheme, lightTheme } from '../../src/theme';
+import { darkTheme, lightTheme } from '../src/theme';
 import { Brightness4, Brightness7 } from '@material-ui/icons';
 const { name, projects } = data
 
