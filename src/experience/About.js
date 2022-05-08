@@ -68,7 +68,7 @@ export default function About() {
                 </Typography>                
             </Grid>
             <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
-            <Fade in={animate} style={{ transitionDelay: '100ms' }}>
+            <Fade>
                         <div>
                             <Image
                                 alt="Skills"
