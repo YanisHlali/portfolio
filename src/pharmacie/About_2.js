@@ -55,19 +55,19 @@ export default function About() {
         <Grid direction="row" container justify="center" alignItems="center" className={classes.cont}>
             <Grid item xs={12} lg={6}>
                 <Typography variant="h2" gutterBottom component="p">
-                    Présentation du projet
+                    Les Missions
                 </Typography>
                 <Typography variant="h6" gutterBottom component="p">
-                    {about.pharmacie.presentation}
+                    {about.pharmacie.mission}
                 </Typography>                
             </Grid>
-            <Grid container direction="column" item xs={12} lg={6} spacing={2}>
+            <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
             <Image
                 alt="Skills"
-                src="/pharmacie_logo.svg"
-                width="900"
-                height="500"
-            />          
+                src="/missions.svg"
+                width="1139"
+                height="655"
+            />             
             </Grid>
         </Grid>
     )
