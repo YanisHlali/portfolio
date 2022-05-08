@@ -6,6 +6,7 @@ import Projects from '../src/Projects';
 import Experience from '../src/Experience';
 import About from '../src/experience/About';
 import About2 from '../src/experience/About_2';
+import About3 from '../src/experience/About_3';
 import Test from "../src/Test";
 import data from '../experience.json';
 import { darkTheme, lightTheme } from '../src/theme';
@@ -79,6 +80,7 @@ export default function Index({ projects, setTheme }) {
         <Landing />
         <About />
         <About2 />
+        <About3 />
       </Container>
     </div>
   );
