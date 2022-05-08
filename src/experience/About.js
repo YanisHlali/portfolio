@@ -72,7 +72,7 @@ export default function About() {
                 <div>
                     <Image
                         alt="Skills"
-                        src="/skill.svg"
+                        src="/mfr_de_vif.png"
                         width="1139"
                         height="655"
                     />
