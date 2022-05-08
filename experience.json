@@ -30,11 +30,13 @@
     "skills": {
         "stage1": {
             "Frontend": [
-                "HTLM5",
+                "HTML5",
                 "CSS3"
             ],
-            "Backend, Database": [
-                "PHP",
+            "Backend": [
+                "PHP"
+            ],
+            "Base de données": [
                 "MySQL"
             ]
         },
