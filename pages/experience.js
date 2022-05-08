@@ -4,7 +4,7 @@ import Landing from '../src/experience/Landing';
 import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
-import About from '../src/About';
+import About from '../src/experience/About';
 import Test from "../src/Test";
 import data from '../experience.json';
 import { darkTheme, lightTheme } from '../src/theme';
