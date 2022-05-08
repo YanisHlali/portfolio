@@ -1,5 +1,5 @@
 import { Fade,Grid, makeStyles, Typography, Tooltip, Avatar } from "@material-ui/core";
-import data from '../../experience.json'
+import data from '../../stageun.json'
 import simpleIcons from 'simple-icons'
 import clsx from "clsx";
 import Image from 'next/image'
