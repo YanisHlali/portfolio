@@ -67,16 +67,8 @@ export default function About() {
                     {about.stage1.presentation4}
                 </Typography>                
             </Grid>
-            <div>
-                <Image
-                    alt="Skills"
-                    src="/skill.svg"
-                    width="1139"
-                    height="655"
-                />
-            </div>
             <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
-            <Fade in={animate} style={{ transitionDelay: '100ms' }}>
+            <Fade>
                         <div>
                             <Image
                                 alt="Skills"
