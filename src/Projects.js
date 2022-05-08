@@ -53,7 +53,7 @@ export default function Projects({ data }) {
                                 <Card key={i} className={classes.card}>
                                     <CardActionArea
                                         className={classes.cardActionArea}
-                                        href={v.value.stargazers_count}
+                                        href="https://twitter.com/home"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -79,7 +79,6 @@ export default function Projects({ data }) {
                                             }
                                         />
                                         <CardContent>
-                                        <Link href="https://twitter.com/home">TEST</Link>
                                         </CardContent>
                                         <CardActions>
                                             <Grid container direction="row" spacing={1}>
