@@ -68,16 +68,12 @@ export default function About() {
                 </Typography>                
             </Grid>
             <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
-            <Fade>
-                        <div>
-                            <Image
-                                alt="Skills"
-                                src="/skill.svg"
-                                width="1139"
-                                height="655"
-                            />
-                        </div>
-                    </Fade>
+            <Image
+                alt="Skills"
+                src="/skill.svg"
+                width="1139"
+                height="655"
+            />
                 <Grid container item xs={12} spacing={2} justify="center">
                 {
                     socialDetails.map(({ alt, icon, link }, i) =>
