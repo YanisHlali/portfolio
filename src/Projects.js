@@ -53,26 +53,26 @@ export default function Projects({ data }) {
                                 <Card key={i} className={classes.card}>
                                     <CardActionArea
                                         className={classes.cardActionArea}
-                                        href={Repos[i].stargazers_count}
+                                        href={v.value.stargazers_count}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <CardHeader
-                                            title={<><RepoIcon verticalAlign='middle' /> {Repos[i].name}</>}
+                                            title={<><RepoIcon verticalAlign='middle' /> {v.value.name}</>}
                                             subheader={
                                                 <>
                                                     {
-                                                        !!Repos[i].stargazers_count &&
+                                                        !!v.value.stargazers_count &&
                                                         <>
                                                             <StarIcon verticalAlign='middle' />
-                                                            {Repos[i].stargazers_count}
+                                                            {v.value.stargazers_count}
                                                         </>
                                                     }
                                                     {
-                                                        !!Repos[i].forks &&
+                                                        !!v.value.forks &&
                                                         <>
                                                             <RepoForkedIcon verticalAlign='middle' />
-                                                            {Repos[i].forks}
+                                                            {v.value.forks}
                                                         </>
                                                     }
                                                 </>
@@ -80,14 +80,14 @@ export default function Projects({ data }) {
                                         />
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
-                                                {Repos[i].description}
+                                                {v.value.description}
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
                                             <Grid container direction="row" spacing={1}>
                                                 {
-                                                    !!Repos[i].languages &&
-                                                    Repos[i].languages.map((lang, i) =>
+                                                    !!v.value.languages &&
+                                                    v.value.languages.map((lang, i) =>
                                                         <Grid item key={i}>
                                                             <Chip
                                                                 key={i}

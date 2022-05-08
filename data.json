@@ -76,14 +76,10 @@
         ]
     },
     "projects": {
-        "baseURI": "https://api.github.com/users/YanisHlali/repos",
+        "baseURI": "https://api.github.com/YanisHlali/repos",
         "repositories": [
-            "Genrealize",
-            "Portfolio",
-            "cosmicom",
-            "Discord-Google-Drive-Bot",
-            "GitHits",
-            "1DBM"
+            "pharmacie",
+            "nuit-info"
         ]
     },
     "experience": {
