@@ -56,14 +56,14 @@ export default function About() {
         <Grid item xs={12} lg={6}>
             <Typography variant="h2" gutterBottom component="p">
             Diagramme de classes
-            </Typography>   
-            <Image
+            </Typography>            
+        </Grid>
+        <Image
             alt="Skills"
             src="/pharmacie_diagrammeDeClasse.png"
             width="1700"
             height="900"
-        />              
-        </Grid>
+            />     
     </Grid>
     )
 }
