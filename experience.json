@@ -25,6 +25,31 @@
                     "link": "mailto:yanis.hlali@gmail.com"
                 }
             ]
+        },
+        "pharmacie": {
+            "title": "Pharmacie",
+            "subtitles": [
+                "Projet de 2e année",
+                "Octobre - Novembre 2021",
+                "Développeur web"
+            ],
+            "professionalDetails": [
+                {
+                    "alt": "Yanis HLALI",
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/yanis-hlali-4ba712201"
+                },
+                {
+                    "alt": "Yanis HLALI",
+                    "icon": "github",
+                    "link": "https://github.com/YanisHlali"
+                },
+                {
+                    "alt": "Email",
+                    "icon": "gmail",
+                    "link": "mailto:yanis.hlali@gmail.com"
+                }
+            ]
         }
     },
     "skills": {

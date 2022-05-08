@@ -8,7 +8,7 @@ import { iconify } from "../util";
 import Cancel from "@material-ui/icons/Cancel";
 const { landing } = data;
 
-const professionalDetails = landing.stage1.professionalDetails.map(({ alt, icon, link }) => {
+const professionalDetails = landing.pharmacie.professionalDetails.map(({ alt, icon, link }) => {
     const ic = simpleIcons.get(iconify(icon)) || {
         hex: '424242',
         component: <Cancel color="white" fontSize={36} />
@@ -56,12 +56,12 @@ export default function Landing() {
         <Grid container justify="center" alignItems="center" className={classes.cont}>
             <Grid item xs={12} lg={6}>
                 <Typography variant={mdDown ? "h2" : "h1"}>
-                    {landing.stage1.title}
+                    {landing.pharmacie.title}
                 </Typography>
                 <Typography variant={mdDown ? "h5" : "h4"} component="h2" className={classes.subtitle}>
 
                     <ReactTyped
-                        strings={landing.stage1.subtitles}
+                        strings={landing.pharmacie.subtitles}
                         typeSpeed={40}
                         backSpeed={50}
                         loop
