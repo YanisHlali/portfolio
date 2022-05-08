@@ -36,7 +36,7 @@
             "Backend": [
                 "PHP"
             ],
-            "Base de données": [
+            "BDD": [
                 "MySQL"
             ]
         },

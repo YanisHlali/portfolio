@@ -67,14 +67,14 @@ export default function Skills() {
         <Grid container justify="center" alignItems="center" spacing={10} className={classes.cont}>
             <Grid item xs={12} lg={6} ref={animRef}>
                 <Typography variant="h2" gutterBottom align="center">
-                    Skills
+                    Technologies utilisées
                 </Typography>
                 <Hidden mdDown>
                     <Fade in={animate} style={{ transitionDelay: '100ms' }}>
                         <div>
                             <Image
                                 alt="Skills"
-                                src="/skill.svg"
+                                src="/stage1_techno.svg"
                                 width="1139"
                                 height="655"
                             />
