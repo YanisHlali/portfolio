@@ -31,11 +31,11 @@ export async function getStaticProps() {
   const fullRepoData = await Promise.allSettled(
     repos.map(
       async name => {
-        const repo = await fetch(baseURI + name, reqInit).then(res => res.json());
+        const repo = await fetch(baseURI + name).then(res => res.json());
         console.log("repo")
         console.log(baseURI + name)
         console.log(repo)
-        const langs = await fetch(baseURI + name + "/languages", reqInit).then(res => res.json())
+        const langs = await fetch(baseURI + name + "/languages").then(res => res.json())
         return {
           ...repo,
           languages: Object.getOwnPropertyNames(langs)
