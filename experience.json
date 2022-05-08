@@ -1,29 +1,31 @@
 {
     "name": "Yanis HLALI",
     "landing": {
-        "title": "Stage n°1",
-        "subtitles": [
-            "MFR De Vif",
-            "26 mai - 4 juillet 2021",
-            "Développeur web"
-        ],
-        "professionalDetails": [
-            {
-                "alt": "Yanis HLALI",
-                "icon": "linkedin",
-                "link": "https://www.linkedin.com/in/yanis-hlali-4ba712201"
-            },
-            {
-                "alt": "Yanis HLALI",
-                "icon": "github",
-                "link": "https://github.com/YanisHlali"
-            },
-            {
-                "alt": "Email",
-                "icon": "gmail",
-                "link": "mailto:yanis.hlali@gmail.com"
-            }
-        ]
+        "stage1": {
+            "title": "Stage n°1",
+            "subtitles": [
+                "MFR De Vif",
+                "26 mai - 4 juillet 2021",
+                "Développeur web"
+            ],
+            "professionalDetails": [
+                {
+                    "alt": "Yanis HLALI",
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/yanis-hlali-4ba712201"
+                },
+                {
+                    "alt": "Yanis HLALI",
+                    "icon": "github",
+                    "link": "https://github.com/YanisHlali"
+                },
+                {
+                    "alt": "Email",
+                    "icon": "gmail",
+                    "link": "mailto:yanis.hlali@gmail.com"
+                }
+            ]
+        }
     },
     "skills": {
         "Languages known": [
