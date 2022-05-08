@@ -67,12 +67,41 @@ export default function About() {
                     {about.stage1.presentation4}
                 </Typography>                
             </Grid>
-            <Image
-                alt="Skills"
-                src="/mfr_de_vif.png"
-                width="1139"
-                height="655"
-            />
+            <div>
+                <Image
+                    alt="Skills"
+                    src="/skill.svg"
+                    width="1139"
+                    height="655"
+                />
+            </div>
+            <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
+            <Fade in={animate} style={{ transitionDelay: '100ms' }}>
+                        <div>
+                            <Image
+                                alt="Skills"
+                                src="/skill.svg"
+                                width="1139"
+                                height="655"
+                            />
+                        </div>
+                    </Fade>
+                <Grid container item xs={12} spacing={2} justify="center">
+                {
+                    socialDetails.map(({ alt, icon, link }, i) =>
+                        <Grid item key={i}>
+                            <a href={link} target="_blank" rel="noopener noreferrer">
+                                <Tooltip title={alt} placement="top">
+                                    <Avatar variant="rounded" className={clsx([classes.avatar, classes[alt]])}>
+                                        {icon}
+                                    </Avatar>
+                                </Tooltip>
+                            </a> 
+                        </Grid>
+                    )
+                }
+                </Grid>                
+            </Grid>
         </Grid>
     )
 }
