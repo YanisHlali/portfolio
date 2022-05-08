@@ -55,7 +55,7 @@ export default function About() {
         <Grid direction="row" container justify="center" alignItems="center" className={classes.cont}>
         <Grid item xs={12} lg={6}>
             <Typography variant="h2" gutterBottom component="p">
-            Diagramme de classe
+            Diagramme de classes
             </Typography>               
         </Grid>
         <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
