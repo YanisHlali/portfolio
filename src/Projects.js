@@ -77,13 +77,13 @@ export default function Projects({ data }) {
                                                     }
                                                 </>
                                             }
+                                            href="https://twitter.com/home"
                                         />
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
                                                 {v.value.description}
                                             </Typography>
                                         </CardContent>
-                                        <Link href="https://twitter.com/home">TEST</Link>
                                         <CardActions>
                                             <Grid container direction="row" spacing={1}>
                                                 {
