@@ -3,7 +3,7 @@
     "landing": {
         "title": "Stage n°1",
         "subtitles": [
-            "TEST 🌐",
+            "MFR De Vif",
             "Cross-platform developer 📱💻",
             "Exploring cloud ☁️",
             "Beginner in devops ♾️",
@@ -137,6 +137,16 @@
         ]
     },
     "about": {
+        "stage1": {
+            "presentation": "La Maison Familiale Rurale est une école, à la fois collège, lycée et centre de formation.",
+            "presentation2": "Elle accueille dès l’âge de 14 ans des jeunes motivés par la découverte des réalités professionnelles et sociales depuis des classes de 4e et 3e jusqu’au CAP, Bac professionnel, BTS et post BTS.",
+            "presentation3": "Des sections en apprentissage et des formations continue pour adultes complètent les formations scolaires.",
+            "presentation4": "Toutes les formations sont développées dans une pédagogie de l’alternance, privilégiant l’expérience du jeune en entreprise ou d’autres formes d’organisation (collectivités, associations…).",
+
+            "image": "/stage1.jpg",
+            "mission": "Création d’une sorte d’interface/logiciel permettant à chacun de mettre à jour régulièrement les informations concernant son parcours professionnel, la fiche de chacun doit être confidentielle. Une interface administrateur doit être créée afin de permettre à l’administrateur d’extraire (rapidement) des listes d’information concernant les salariés."
+
+        },
         "description": "Je m'appelle Yanis, je suis actuellement étudiant en BTS SIO SLAM au lycée Aristide Berges.",
         "description2": "Intéressé par l'informatique depuis quelques années, j'ai choisi de me spécialiser dans le développement d'application à travers l'option SLAM du BTS",
         "description3": "Mon projet professionnel est de devenir développeur web full-stack, et de développer des applications web et mobiles.",
