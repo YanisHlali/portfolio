@@ -4,6 +4,7 @@ import Landing from '../src/pharmacie/Landing';
 import About from '../src/pharmacie/About';
 import About2 from '../src/pharmacie/About_2';
 import About3 from '../src/pharmacie/About_3';
+import About4 from '../src/pharmacie/About_4';
 import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
@@ -81,6 +82,7 @@ export default function Index({ projects, setTheme }) {
         <About />
         <About2 />
         <About3 />
+        <About4 />
       </Container>
     </div>
   );
