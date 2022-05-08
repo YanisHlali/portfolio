@@ -59,8 +59,11 @@ export default function About() {
                 </Typography>
                 <Typography variant="h6" gutterBottom component="p">
                     {about.stage1.presentation}
+                    <br />
                     {about.stage1.presentation2}
+                    <br />
                     {about.stage1.presentation3}
+                    <br />
                     {about.stage1.presentation4}
                 </Typography>                
             </Grid>
@@ -69,7 +72,7 @@ export default function About() {
                     <Avatar variant="rounded" className={classes.dp}>
                         <Image
                             alt="Display Picture"
-                            src={about.picture}
+                            src={about.stage1.image}
                             layout="fill"
                         />
                     </Avatar>
