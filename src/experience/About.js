@@ -70,7 +70,7 @@ export default function About() {
             <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
             <Image
                 alt="Skills"
-                src="/skill.svg"
+                src="/mfr_de_vif.png"
                 width="1139"
                 height="655"
             />
