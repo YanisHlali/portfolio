@@ -31,6 +31,7 @@ export async function getStaticProps() {
   const fullRepoData = await Promise.allSettled(
     repos.map(
       async name => {
+        console.log(baseURI + name);
         const repo = await fetch(baseURI + name, reqInit).then(res => res.json());
         const langs = await fetch(baseURI + name + "/languages", reqInit).then(res => res.json())
         return {
