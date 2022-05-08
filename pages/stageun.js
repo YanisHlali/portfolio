@@ -1,12 +1,12 @@
 import React, { useCallback } from 'react';
 import { AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger, useTheme } from '@material-ui/core';
-import Landing from '../src/experience/Landing';
+import Landing from '../src/mfr_de_vif/Landing';
 import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
-import About from '../src/experience/About';
-import About2 from '../src/experience/About_2';
-import About3 from '../src/experience/About_3';
+import About from '../src/mfr_de_vif/About';
+import About2 from '../src/mfr_de_vif/About_2';
+import About3 from '../src/mfr_de_vif/About_3';
 import Test from "../src/Test";
 import data from '../experience.json';
 import { darkTheme, lightTheme } from '../src/theme';
