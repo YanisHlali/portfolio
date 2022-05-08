@@ -56,10 +56,24 @@
         "stage1": {
             "Frontend": [
                 "HTML5",
-                "CSS3"
+                "CSS3",
+                "Chart.js"
             ],
             "Backend": [
                 "PHP"
+            ],
+            "BDD  ": [
+                "MySQL"
+            ]
+        },
+        "pharmacie": {
+            "Frontend": [
+                "HTML5",
+                "CSS3"
+            ],
+            "Backend": [
+                "Node.js",
+                "Express"
             ],
             "BDD  ": [
                 "MySQL"
