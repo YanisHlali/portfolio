@@ -57,6 +57,7 @@ export default function Projects({ data }) {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
+                                        <Link href="https://twitter.com/home">
                                         <CardHeader
                                             title={<><RepoIcon verticalAlign='middle' /> {v.value.name}</>}
                                             subheader={
@@ -77,8 +78,8 @@ export default function Projects({ data }) {
                                                     }
                                                 </>
                                             }
-                                            href="https://twitter.com/home"
                                         />
+                                        </Link>
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
                                                 {v.value.description}
