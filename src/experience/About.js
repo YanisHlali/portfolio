@@ -1,4 +1,4 @@
-import { Fade, Grid, makeStyles, Typography, Tooltip, Avatar } from "@material-ui/core";
+import { Fade,Grid, makeStyles, Typography, Tooltip, Avatar } from "@material-ui/core";
 import data from '../../experience.json'
 import simpleIcons from 'simple-icons'
 import clsx from "clsx";
@@ -67,29 +67,12 @@ export default function About() {
                     {about.stage1.presentation4}
                 </Typography>                
             </Grid>
-            <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
             <Image
                 alt="Skills"
                 src="/mfr_de_vif.png"
                 width="1139"
                 height="655"
             />
-                <Grid container item xs={12} spacing={2} justify="center">
-                {
-                    socialDetails.map(({ alt, icon, link }, i) =>
-                        <Grid item key={i}>
-                            <a href={link} target="_blank" rel="noopener noreferrer">
-                                <Tooltip title={alt} placement="top">
-                                    <Avatar variant="rounded" className={clsx([classes.avatar, classes[alt]])}>
-                                        {icon}
-                                    </Avatar>
-                                </Tooltip>
-                            </a> 
-                        </Grid>
-                    )
-                }
-                </Grid>                
-            </Grid>
         </Grid>
     )
 }
