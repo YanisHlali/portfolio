@@ -8,7 +8,7 @@ import About from '../src/mfr_de_vif/About';
 import About2 from '../src/mfr_de_vif/About_2';
 import About3 from '../src/mfr_de_vif/About_3';
 import Test from "../src/Test";
-import data from '../experience.json';
+import data from '../stageun.json';
 import { darkTheme, lightTheme } from '../src/theme';
 import { Brightness4, Brightness7 } from '@material-ui/icons';
 const { name, projects } = data
