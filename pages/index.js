@@ -33,6 +33,7 @@ export async function getStaticProps() {
       async name => {
         const repo = await fetch(baseURI + name, reqInit).then(res => res.json());
         console.log("repo")
+        console.log(baseURI + name)
         console.log(repo)
         const langs = await fetch(baseURI + name + "/languages", reqInit).then(res => res.json())
         return {
