@@ -73,7 +73,7 @@ export default function About() {
                 src="/mfr_de_vif.png"
                 width="900"
                 height="500"
-            />              
+            />          
             </Grid>
         </Grid>
     )
