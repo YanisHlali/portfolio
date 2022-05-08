@@ -56,13 +56,15 @@ export default function About() {
             <Grid item xs={12} lg={6}>
                 <Typography variant="h2" gutterBottom component="p">
                     Schéma de base de données
-                </Typography>          
+                </Typography>            
+            <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
                 <Image
-                alt="Skills"
-                src="/bdd_stage1.png"
-                width="1139"
-                height="655"
-            />    
+                    alt="Skills"
+                    src="/bdd_stage1.png"
+                    width="1139"
+                    height="655"
+                />              
+            </Grid>
             </Grid>
         </Grid>
     )

@@ -67,7 +67,7 @@ export default function About() {
                     {about.stage1.presentation4}
                 </Typography>                
             </Grid>
-            <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="right" alignItems="right">
+            <Grid container direction="column" item xs={12} lg={6} spacing={2}>
             <Image
                 alt="Skills"
                 src="/mfr_de_vif.png"
