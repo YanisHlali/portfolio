@@ -70,10 +70,13 @@ export default function Index({ projects, setTheme }) {
             { name }
           </Typography>
           <Typography variant="h6" className={classes.root}>
-            <Link className={classes.lien} color="white" href="https://portfolio-puce-nu.vercel.app/mfr">Stage n°1</Link>
+            <Link className={classes.lien} href="https://portfolio-puce-nu.vercel.app/mfr">Stage n°1</Link>
           </Typography>
           <Typography variant="h6" className={classes.root}>
-          <a href="https://portfolio-puce-nu.vercel.app/inria">Alternance</a>
+            <Link className={classes.lien} href="https://portfolio-puce-nu.vercel.app/pharmacie">Pharmacie SAUTHEUZ</Link>
+          </Typography>
+          <Typography variant="h6" className={classes.root}>
+            <Link className={classes.lien} href="https://portfolio-puce-nu.vercel.app/inria">Alternance</Link>
           </Typography>
           <IconButton edge="end" color="inherit" onClick={toggleTheme}>
             {theme.palette.type === "dark" ? <Brightness7/> : <Brightness4/>}
