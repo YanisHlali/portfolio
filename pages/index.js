@@ -5,7 +5,6 @@ import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
 import About from '../src/About';
-import Test from "../src/Test";
 import data from '../data.json';
 import { darkTheme, lightTheme } from '../src/theme';
 import { Brightness4, Brightness7 } from '@material-ui/icons';
@@ -79,7 +78,6 @@ export default function Index({ projects, setTheme }) {
         <Skills />
         <Projects data={projects}/>
         <Experience/>
-        <Test />
       </Container>
     </div>
   );
