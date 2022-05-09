@@ -67,10 +67,10 @@ export default function Index({ projects, setTheme }) {
             { name }
           </Typography>
           <Typography variant="h6" className={classes.root}>
-            TEST
+            <a href="https://portfolio-puce-nu.vercel.app/mfr">Stage n°1</a>
           </Typography>
           <Typography variant="h6" className={classes.root}>
-            bfbsfw
+          <a href="https://portfolio-puce-nu.vercel.app/inria">Alternance</a>
           </Typography>
           <IconButton edge="end" color="inherit" onClick={toggleTheme}>
             {theme.palette.type === "dark" ? <Brightness7/> : <Brightness4/>}
