@@ -63,7 +63,7 @@ export default function About() {
                 alt="Skills"
                 src="/pharmacie_maquette_3.png"
                 width="1139"
-                height="655"
+                height="750"
             />             
             </Grid>
         </Grid>
