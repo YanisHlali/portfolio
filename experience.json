@@ -50,6 +50,31 @@
                     "link": "mailto:yanis.hlali@gmail.com"
                 }
             ]
+        },
+        "inria": {
+            "title": "Alternance",
+            "subtitles": [
+                "Alternance",
+                "Octobre - Aujourd'hui",
+                "Développeur ETL"
+            ],
+            "professionalDetails": [
+                {
+                    "alt": "Yanis HLALI",
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/yanis-hlali-4ba712201"
+                },
+                {
+                    "alt": "Yanis HLALI",
+                    "icon": "github",
+                    "link": "https://github.com/YanisHlali"
+                },
+                {
+                    "alt": "Email",
+                    "icon": "gmail",
+                    "link": "mailto:yanis.hlali@gmail.com"
+                }
+            ]
         }
     },
     "skills": {
@@ -185,6 +210,11 @@
             "cahierdescharges": "Un client aura une ordonnance par pathologie, une ordonnance peut avoir plusieurs médicaments. Chaque médicament a sa propre posologie et contient donc un nombre de principes actifs (pastilles, comprimés, doses) déterminé. L'objectif est qu'en fonction des demandes dans les ordonnances, la pharmacie puisse commander la bonne quantité de chaque médicament. Le dosage est indiqué sur l'ordonnance et la durée du traitement aussi : la pharmacie doit pouvoir obtenir un graphique par médicament pour l'ensemble des clients en cours avec la prédiction dans le temps (si un client à une ordonnance de 6 mois, cela signifie qu'il faut prévoir son médicament pour les six prochains mois). Ainsi que le stock actuel pour l'ensemble des médicaments.",
             "organisation": "Effectuant ce projet avec un camarade, nous avons décidé de nous répartir les taches en fonction de nos forces et faiblesses. Etant à l'aise avec node js, je me suis occupé de la partie back-end et base de données et mon camarade de l'interface de l'application. Pour nous organiser nous avons fait plusieurs diagrammes.",
             "bilan": "Le projet était très intéressant. C'est mon premier projet en groupe et j'ai beaucoup appris à m'organiser et penser en équipe. De plus, j'ai eu une formation sur la méthode agile pendant mon alternance que j'ai pu appliquer et cela nous a beaucoup aidé a travailler efficacement. C'est aussi mon premier projet avec node js et j'ai beaucoup aimé travailler avec ce langage et ses framework et outils. J'ai pu aussi corriger les erreurs lors de mon premier stage, notamment au niveau de l'organisation. Je suis sorti de ce projet avec plus de compétences techniques et organisationnelles."
+        },
+        "inria": {
+            "presentation": "ETL signifie Extraction, Transformation et Chargement. C'est un processus automatisé qui prend les données brutes, extrait l'information nécessaire à l'analyse, la transforme en un format qui peut répondre aux besoins opérationnels et la charge dans un Data Warehouse.",
+            "mission": "Mes missions consitent à faire des scripts avec l'outil Talend. Je récupére via des API des données pour les transformer et crée des fichiers CSV contenant les données puis les envoyer sur un serveur.",
+            "bilan": "Cette alternance m'a permit de découvrir le monde du travail. J'ai pu voir comment fonctionne une entreprise (réunions, organisation, relations avec collègues). Cette experience professionelle est très enrichissante d'un point de vue technique (nouveaux outils, façon de travailler)."
         },
         "description": "Je m'appelle Yanis, je suis actuellement étudiant en BTS SIO SLAM au lycée Aristide Berges.",
         "description2": "Intéressé par l'informatique depuis quelques années, j'ai choisi de me spécialiser dans le développement d'application à travers l'option SLAM du BTS",
