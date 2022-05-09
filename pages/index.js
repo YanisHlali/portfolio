@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger, useTheme } from '@material-ui/core';
+import { Link, AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger, useTheme } from '@material-ui/core';
 import Landing from '../src/Landing';
 import Skills from '../src/Skills';
 import Projects from '../src/Projects';
@@ -67,7 +67,7 @@ export default function Index({ projects, setTheme }) {
             { name }
           </Typography>
           <Typography variant="h6" className={classes.root}>
-            <a style="color: white;text-decoration: none;" href="https://portfolio-puce-nu.vercel.app/mfr">Stage n°1</a>
+            <Link href="https://portfolio-puce-nu.vercel.app/mfr">Stage n°1</Link>
           </Typography>
           <Typography variant="h6" className={classes.root}>
           <a href="https://portfolio-puce-nu.vercel.app/inria">Alternance</a>
