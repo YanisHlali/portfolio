@@ -8,6 +8,8 @@ import About from '../src/mfr_de_vif/About';
 import About2 from '../src/mfr_de_vif/About_2';
 import About3 from '../src/mfr_de_vif/About_3';
 import About4 from '../src/mfr_de_vif/About_4';
+import About5 from '../src/mfr_de_vif/About_5';
+import About6 from '../src/mfr_de_vif/About_6';
 import About7 from '../src/mfr_de_vif/About_7';
 import About8 from '../src/mfr_de_vif/About_8';
 import Test from "../src/Test";
