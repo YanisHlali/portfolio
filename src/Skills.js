@@ -67,7 +67,7 @@ export default function Skills() {
         <Grid container justify="center" alignItems="center" spacing={10} className={classes.cont}>
             <Grid item xs={12} lg={6} ref={animRef}>
                 <Typography variant="h2" gutterBottom align="center">
-                    Skills
+                    Compétences
                 </Typography>
                 <Hidden mdDown>
                     <Fade in={animate} style={{ transitionDelay: '100ms' }}>

@@ -29,7 +29,7 @@ export default function Projects({ data }) {
         <Grid direction="row-reverse" container justify="center" alignItems="center" spacing={10} className={classes.cont}>
             <Grid item xs={12} lg={6}>
                 <Typography variant="h2" gutterBottom align="center" innerRef={animRef}>
-                    Projects
+                    Projets
                 </Typography>
                 <Hidden mdDown>
                     <Fade in={animate} style={{ transitionDelay: '250ms' }}>
