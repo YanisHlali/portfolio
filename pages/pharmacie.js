@@ -13,6 +13,7 @@ import About9 from '../src/pharmacie/About_9';
 import About10 from '../src/pharmacie/About_10';
 import About11 from '../src/pharmacie/About_11';
 import About12 from '../src/pharmacie/About_12';
+import About13 from '../src/pharmacie/About_13';
 import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
@@ -99,6 +100,7 @@ export default function Index({ projects, setTheme }) {
         <About10 />
         <About11 />
         <About12 />
+        <About13 />
       </Container>
     </div>
   );
