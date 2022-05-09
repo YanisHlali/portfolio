@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger, useTheme } from '@material-ui/core';
+import { Link, AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger, useTheme } from '@material-ui/core';
 import Landing from '../src/pharmacie/Landing';
 import About from '../src/pharmacie/About';
 import About2 from '../src/pharmacie/About_2';
@@ -28,6 +28,9 @@ const useStyles = makeStyles(theme => ({
   },
   appBar: {
     boxShadow: "none",
+  },
+  lien: {
+    color: "white"
   }
 }))
 
@@ -75,9 +78,15 @@ export default function Index({ projects, setTheme }) {
   return (
     <div className={classes.root}>
       <AppBar color={!trigger ? "transparent" : "inherit"} className={classes.appBar} position="fixed">
-        <Toolbar>
+      <Toolbar>
           <Typography variant="h6" className={classes.root}>
-            { name }
+            <Link className={classes.lien} href="https://portfolio-puce-nu.vercel.app/mfr">Stage n°1</Link>
+          </Typography>
+          <Typography variant="h6" className={classes.root}>
+            <Link className={classes.lien} href="https://portfolio-puce-nu.vercel.app/pharmacie">Pharmacie SAUTHEUZ</Link>
+          </Typography>
+          <Typography variant="h6" className={classes.root}>
+            <Link className={classes.lien} href="https://portfolio-puce-nu.vercel.app/inria">Alternance</Link>
           </Typography>
           <IconButton edge="end" color="inherit" onClick={toggleTheme}>
             {theme.palette.type === "dark" ? <Brightness7/> : <Brightness4/>}

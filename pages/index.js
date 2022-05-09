@@ -67,9 +67,6 @@ export default function Index({ projects, setTheme }) {
       <AppBar color={!trigger ? "transparent" : "inherit"} className={classes.appBar} position="fixed">
         <Toolbar>
           <Typography variant="h6" className={classes.root}>
-            { name }
-          </Typography>
-          <Typography variant="h6" className={classes.root}>
             <Link className={classes.lien} href="https://portfolio-puce-nu.vercel.app/mfr">Stage n°1</Link>
           </Typography>
           <Typography variant="h6" className={classes.root}>
