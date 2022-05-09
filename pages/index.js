@@ -64,7 +64,13 @@ export default function Index({ projects, setTheme }) {
       <AppBar color={!trigger ? "transparent" : "inherit"} className={classes.appBar} position="fixed">
         <Toolbar>
           <Typography variant="h6" className={classes.root}>
-            { name }TEST
+            { name }
+          </Typography>
+          <Typography variant="h6" className={classes.root}>
+            TEST
+          </Typography>
+          <Typography variant="h6" className={classes.root}>
+            bfbsfw
           </Typography>
           <IconButton edge="end" color="inherit" onClick={toggleTheme}>
             {theme.palette.type === "dark" ? <Brightness7/> : <Brightness4/>}
