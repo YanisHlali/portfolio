@@ -64,7 +64,7 @@ export default function About() {
             <Grid container direction="column" item xs={12} lg={6} spacing={2}>
             <Image
                 alt="Skills"
-                src="/inria_misssion.svg"
+                src="/inria_mission.svg"
                 width="900"
                 height="500"
             />          
