@@ -28,51 +28,29 @@
         ]
     },
     "skills": {
-        "Languages known": [
+        "Langage que je connais": [
             "JavaScript",
             "Java",
-            "C++",
+            "C#",
             "Python",
             "HTML5",
-            "CSS3",
-            "TypeScript",
-            "Kotlin",
-            "Dart"
+            "CSS3"
         ],
         "Frontend": [
-            "React",
-            "Redux",
-            "Next.js",
-            "Gatsby",
-            "Netlify",
-            "Vercel",
-            "Material-UI",
-            "antdesign",
-            "Bootstrap"
+            "HTML5",
+            "CSS3",
+            "React"
         ],
         "Backend, Database and Cloud": [
             "Node.js",
             "Express",
-            "FastAPI",
-            "MongoDB",
+            "Next.js",
             "MySQL",
-            "PostgreSQL",
-            {
-                "alt": "Azure",
-                "icon": "microsoftazure"
-            },
             "Heroku",
-            "Firebase"
+            "Vercel"
         ],
         "Mobile": [
-            {
-                "alt": "React_Native",
-                "icon": "react",
-                "backgroundColor": "#424242"
-            },
-            "Expo",
-            "Android",
-            "Flutter"
+            "Android"
         ]
     },
     "projects": {
