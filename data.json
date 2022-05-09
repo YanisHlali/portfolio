@@ -54,7 +54,8 @@
         "repositories": [
             "pharmacie",
             "nuit-info",
-            "epoka_sio"
+            "epoka_sio",
+            "stage"
         ]
     },
     "experience": {
