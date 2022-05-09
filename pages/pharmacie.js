@@ -17,7 +17,6 @@ import About13 from '../src/pharmacie/About_13';
 import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
-import Test from "../src/Test";
 import data from '../experience.json';
 import { darkTheme, lightTheme } from '../src/theme';
 import { Brightness4, Brightness7 } from '@material-ui/icons';
