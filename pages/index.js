@@ -67,7 +67,7 @@ export default function Index({ projects, setTheme }) {
             { name }
           </Typography>
           <Typography variant="h6" className={classes.root}>
-            <a href="https://portfolio-puce-nu.vercel.app/mfr">Stage n°1</a>
+            <a style="color: white;text-decoration: none;" href="https://portfolio-puce-nu.vercel.app/mfr">Stage n°1</a>
           </Typography>
           <Typography variant="h6" className={classes.root}>
           <a href="https://portfolio-puce-nu.vercel.app/inria">Alternance</a>
