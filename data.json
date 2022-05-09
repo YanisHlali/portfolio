@@ -63,16 +63,14 @@
     "experience": {
         "Work Experience": [
             {
-                "organization": "CloudDFN LLP",
-                "role": "Full Stack Developer",
-                "type": "Internship",
-                "startDate": "2020-07-20",
-                "endDate": "2021-01-20",
-                "city": "Mumbai",
-                "state": "Maharashtra",
-                "country": "India",
-                "url": "https://www.linkedin.com/company/clouddfn-llp/",
-                "thumbnail": "/CDFN.jfif"
+                "organization": "MFR de Vif",
+                "role": "Développeur web",
+                "type": "Stage",
+                "startDate": "2021-05-26",
+                "endDate": "2021-07-02",
+                "city": "Vif",
+                "state": "Isère",
+                "country": "France"
             },
             {
                 "organization": "NonceBlox Pvt. Ltd.",

@@ -52,7 +52,7 @@ export default function Projects({ data }) {
                                 <Card key={i} className={classes.card}>
                                     <CardActionArea
                                         className={classes.cardActionArea}
-                                        href="https://twitter.com/home"
+                                        href="https://github.com/YanisHlali"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
