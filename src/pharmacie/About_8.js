@@ -53,17 +53,19 @@ export default function About() {
 
     return(
         <Grid direction="row" container justify="center" alignItems="center" className={classes.cont}>
-        <Grid item xs={12} lg={6}>
-            <Typography variant="h2" gutterBottom component="p">
-            Page de recherche
-            </Typography>            
+            <Grid item xs={12} lg={6}>
+                <Typography variant="h2" gutterBottom component="p">
+                    Page - Recherche
+                </Typography>              
+            </Grid>
+            <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
+            <Image
+                alt="Skills"
+                src="/pharmacie_maquette_1.png"
+                width="1139"
+                height="655"
+            />             
+            </Grid>
         </Grid>
-        <Image
-            alt="Skills"
-            src="/pharmacie_maquette_1.png"
-            width="1700"
-            height="900"
-            />     
-    </Grid>
     )
 }

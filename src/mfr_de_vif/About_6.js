@@ -55,7 +55,7 @@ export default function About() {
         <Grid direction="row" container justify="center" alignItems="center" className={classes.cont}>
             <Grid item xs={12} lg={6}>
                 <Typography variant="h2" gutterBottom component="p">
-                    Dévelopement
+                    Développement
                 </Typography>
                 <Typography variant="h6" gutterBottom component="p">
                     {about.stage1.developpement}<br />

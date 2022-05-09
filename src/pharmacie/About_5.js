@@ -56,15 +56,13 @@ export default function About() {
             <Grid item xs={12} lg={6}>
                 <Typography variant="h2" gutterBottom component="p">
                     Kanban
-                </Typography>              
-            </Grid>
-            <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
-            <Image
+                </Typography>
+                <Image
                 alt="Skills"
                 src="/pharmacie_kanban.png"
                 width="1139"
                 height="655"
-            />             
+            />            
             </Grid>
         </Grid>
     )
