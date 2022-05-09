@@ -70,7 +70,9 @@
                 "endDate": "2021-07-02",
                 "city": "Vif",
                 "state": "Isère",
-                "country": "France"
+                "country": "France",
+                "url": "https://www.linkedin.com/company/clouddfn-llp/",
+                "thumbnail": "/CDFN.jfif"
             },
             {
                 "organization": "NonceBlox Pvt. Ltd.",
