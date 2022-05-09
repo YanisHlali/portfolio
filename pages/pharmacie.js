@@ -6,6 +6,13 @@ import About2 from '../src/pharmacie/About_2';
 import About3 from '../src/pharmacie/About_3';
 import About4 from '../src/pharmacie/About_4';
 import About5 from '../src/pharmacie/About_5';
+import About6 from '../src/pharmacie/About_6';
+import About7 from '../src/pharmacie/About_7';
+import About8 from '../src/pharmacie/About_8';
+import About9 from '../src/pharmacie/About_9';
+import About10 from '../src/pharmacie/About_10';
+import About11 from '../src/pharmacie/About_11';
+import About12 from '../src/pharmacie/About_12';
 import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
@@ -85,6 +92,13 @@ export default function Index({ projects, setTheme }) {
         <About3 />
         <About4 />
         <About5 />
+        <About6 />
+        <About7 />
+        <About8 />
+        <About9 />
+        <About10 />
+        <About11 />
+        <About12 />
       </Container>
     </div>
   );
