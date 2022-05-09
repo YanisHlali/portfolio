@@ -53,18 +53,16 @@ export default function About() {
 
     return(
         <Grid direction="row" container justify="center" alignItems="center" className={classes.cont}>
-        <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
-        <Image
+        <Grid item xs={12} lg={6}>
+            <Typography variant="h2" gutterBottom component="p">
+            Schéma de base de données
+            </Typography>
+            <Image
             alt="Skills"
             src="/bdd_stage1.png"
             width="1139"
             height="655"
-        />             
-        </Grid>
-        <Grid item xs={12} lg={6}>
-            <Typography variant="h2" gutterBottom component="p">
-            Schéma de base de données
-            </Typography>               
+        />                
         </Grid>
     </Grid>
     )
