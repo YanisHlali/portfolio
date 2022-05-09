@@ -87,6 +87,8 @@ export default function Index({ projects, setTheme }) {
         <About2 />
         <About3 />
         <About4 />
+        <About5 />
+        <About6 />
         <About7 />
         <About8 />
       </Container>
